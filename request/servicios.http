@@ -1,0 +1,28 @@
+
+//Create a new variable for don't repeat codigo
+@apí = http://localhost:4000/servicios
+
+###List of services
+GET {{apí}}
+
+###List of services por id
+GET {{apí}}/4
+
+###Eliminacion por id
+DELETE {{apí}}/11
+
+###Insert new servicie
+POST {{apí}}
+Content-Type: application/json
+
+{
+    "nombre": "Compensar"
+}
+
+###Update Servio
+PUT {{apí}}/10
+Content-Type:  application/json
+
+{
+    "nombre":"Otro gasto"
+}
