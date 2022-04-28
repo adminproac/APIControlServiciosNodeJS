@@ -1,6 +1,6 @@
 
 //Create a new variable for don't repeat codigo
-@apí = http://localhost:4000/servicios
+@apí = http://localhost:4000/ccostos
 
 ###List of services (parameter 0) or servcio (parameter id)
 GET {{apí}}/0
@@ -13,8 +13,8 @@ POST {{apí}}
 Content-Type: application/json
 
 {
-    "iidservicio": 0, 
-    "nombre": "Servicio Modificado"
+    "iidccosto": 0, 
+    "nombre": "Nuevo centro de costos"
 }
 
 
